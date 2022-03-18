@@ -24,7 +24,7 @@ jobs:
     needs: [prepare-release]
     strategy:
       matrix:
-        EDITION: [lxde]
+        EDITION: [fluxbox]
         BRANCH: [stable]
         SCOPE: [minimal]
     steps:
